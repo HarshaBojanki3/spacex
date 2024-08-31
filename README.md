@@ -40,3 +40,32 @@ To get started with this project, clone the repository and set up the environmen
 ```bash
 git clone https://github.com/HarshaBojanki3/spacex.git
 cd spacex
+```
+
+### Conda Environment
+
+To set up a conda environment, use the provided `python-package-conda.yml` file.
+
+```bash
+conda env create -f .github/workflows/python-package-conda.yml
+conda activate spacex-env
+```
+
+## Usage
+
+Open the Jupyter notebooks in your preferred environment (Jupyter Lab, Jupyter Notebook, VS Code, etc.) and run the cells to execute the analysis and view results. To run the Dash application, execute `spacex_dash_app.py`:
+
+```bash
+python spacex_dash_app.py
+```
+
+This command starts a local server where you can interact with the visualizations.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes. Ensure that your code adheres to the project's style guidelines and passes all tests.
+
+## License
+
+This project is licensed under the MIT License. 
+```
